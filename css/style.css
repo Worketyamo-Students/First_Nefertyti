@@ -24,17 +24,19 @@ li{
     font-size: 30px;
 }
 
-img{
+.logo{
     float: right;
-    margin: 0 0 10PX 20px;
     margin-left: 20px;
     margin-top: -21px;
 
 }
 
-.queen{
+ 
+
+#sec0{
     display: flex;
     justify-content: space-between;
+    height:730px;
     
 }
 
@@ -49,7 +51,7 @@ img{
     padding-left: 65px;
 }
 
-p{
+p{    width:1,209px;
     font-size: 28px;
     font-family: sans-serif;
     margin-top: 50Px;
@@ -69,3 +71,151 @@ button{
     border: none;
 
 }
+
+#sec1{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin: 0px 90px ;
+    /* space-around (espace autour et au milieu des elements, space-between(espace entre les elements) */
+
+}
+.right{
+    width: 600px;
+    right: 400Px;
+
+}
+
+.right h1{
+    font-size: 55px;
+
+}
+
+.right p{
+    font-size: 24px;
+    width: 500px;
+    height: 234px;
+    
+}
+
+#sec2{
+    display: flex;
+    justify-content: space-around;
+    background-color: #3E3232;
+    margin: 150px 0px 150px 0px;
+}
+
+#sec2 div{
+    width: max-content;
+}
+
+#sec2 h1{
+   font-size: 55px;
+}
+
+#sec2 p{
+    font-size: 24px;
+    width: 349px;
+}
+
+.un{
+    width:600px;
+    height:400px ;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.deux{
+    width: 600px;
+    height:400px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+
+.trois{
+    width: 600px;
+    height: 400px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+
+#sec3{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#sec3 div{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.produits{
+  position: absolute;
+}
+
+#sec4{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 164px 0px;
+ background-color: #DFCECE;
+ margin: 237px 0px;
+}
+
+#sec4 form{
+  display: flex;
+  flex-direction:column ;
+  align-items: center;
+  width: 700px;
+  gap: 30px;
+}
+#sec4 input{
+    height: 96px;
+    border: solid;
+    width: 100%;
+
+}
+
+#sec4 div{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    width: 100%;
+}
+
+#sec4 button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    gap: 30px;
+    width: 80%;
+}
+footer{
+    background-color: #3E3232;
+    height: 647px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+footer img{
+    width: 664px;
+    height: 274.44px;
+}
+
+
